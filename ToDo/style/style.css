@@ -1,0 +1,7 @@
+.not-checked{
+    color:blueviolet ;
+    background-color: rgb(228, 211, 211);
+} 
+.checked {
+    text-decoration: line-through;
+}

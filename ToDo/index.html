@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css  ">
+    <title>Document</title>
+</head>
+<body>
+    <div class="todo-app">
+        <div class="add-bar">
+            <div class="add-input-wrap">
+                <input type="text"   placeholder="What needs to be done?" id="add-input" class="add-input"   >
+            </div>
+            <div class="add-btn-wrap">
+                <button class="add-btn" onclick="handleInputChange(this)"> add </button>
+            </div>
+        </div>
+        <div class="list-section">
+            <div class="list-section-heading">
+                <h4>Todo List</h4>
+            </div>
+            <div class="list-of-elements" id="list-of-elements">
+                <div class="list-element">
+                    <input type="checkbox" onchange="handleCheckBox(this)" name="" id="">
+                    <p class="not-checked">Test React Ant Design Todo List</p>
+                    <button onclick="handleDelete(this)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
